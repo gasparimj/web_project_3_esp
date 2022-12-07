@@ -10,3 +10,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.cover__frame:hover {
+  background-color: #0063d2;
+  transition: background-color 0.4s linear;
+}
