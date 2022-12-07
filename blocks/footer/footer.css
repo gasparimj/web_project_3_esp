@@ -1,0 +1,6 @@
+.footer {
+  border: 1px solid salmon;
+  padding: 92px 0 24px;
+  display: flex;
+  justify-content: center;
+}

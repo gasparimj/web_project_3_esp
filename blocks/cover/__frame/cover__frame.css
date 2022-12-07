@@ -1,0 +1,12 @@
+.cover__frame {
+  position: absolute;
+  width: 198px;
+  height: 48px;
+  z-index: 1;
+  top: 449px;
+  border-radius: 4px;
+  background-color: #0278fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,56 @@
+/*Importación archivo normalize.css*/
+@import url(../vendor/normalize.css);
+/*Importación archivo con fuentes*/
+@import url(../fonts/inter.css);
+/*Importación archivo para estilo base de la página*/
+@import url(../blocks/page/page.css);
+/*Importación archivo root para normalizar margenes y estilos de fuentes*/
+@import url(../blocks/root/root.css);
+
+/*Estilo de bloque content*/
+@import url(../blocks/content/content.css);
+
+/*Estilos de bloque cabecera*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__main-ilustration/header__main-ilustration.css);
+
+/*Estilos de bloque description*/
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__quote/description__quote.css);
+@import url(../blocks/description/__quote/_author/description__quote_author.css);
+@import url(../blocks/description/__text/description__text.css);
+
+/*Estilos de bloque photo-grid*/
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+
+/*Estilos de bloque places*/
+@import url(../blocks/places/places.css);
+
+/*Estilos de bloque place*/
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__subtitle/place__subtitle.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__artist/place__artist.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraph-style.css/place__paragraph-style.css);
+@import url(../blocks/place/__frame/place__frame.css);
+@import url(../blocks/place/__frame-text/place__frame-text.css);
+
+/*Estilos de bloque cover*/
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__frame/cover__frame.css);
+@import url(../blocks/cover/__link/cover__link.css);
+
+/*Estilos de bloque footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__author/footer__author.css);

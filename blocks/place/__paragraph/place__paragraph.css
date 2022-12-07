@@ -1,0 +1,8 @@
+.place__paragraph {
+  grid-area: paragraph;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  /* width: 484px; */
+  /* border: 1px solid rgb(245, 74, 208); */
+}

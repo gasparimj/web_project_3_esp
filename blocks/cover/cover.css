@@ -1,0 +1,8 @@
+.cover {
+  width: 1184px;
+  border: 1px solid blue;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}

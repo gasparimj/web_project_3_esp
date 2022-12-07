@@ -1,0 +1,11 @@
+.place__frame {
+  grid-area: frame;
+  border: 1px solid rgb(245, 74, 208);
+  background-color: #0278fe;
+  width: 355px;
+  height: 48px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

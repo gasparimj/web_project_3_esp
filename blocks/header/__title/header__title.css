@@ -1,0 +1,10 @@
+.header__title {
+  width: 80%; /*793/984 sino tengo q indicar 793px*/
+  margin: 90px 0 32px;
+  font-weight: 900;
+  font-size: 96px;
+  color: #fff;
+  text-align: center;
+  line-height: 1;
+  border: 1px solid rgb(191, 232, 109);
+}

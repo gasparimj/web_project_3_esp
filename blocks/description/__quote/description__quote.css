@@ -1,0 +1,8 @@
+.description__quote {
+  border: 1px solid salmon;
+  width: 71%; /*o 720px??*/
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}

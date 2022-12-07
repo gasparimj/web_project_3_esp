@@ -1,0 +1,8 @@
+.places {
+  border: 1px solid sandybrown;
+  width: 984px;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; para que se vayan ubicando hacia abajo*/
+  gap: 80px;
+}
