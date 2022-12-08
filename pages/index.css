@@ -21,7 +21,7 @@
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/__quote/description__quote.css);
-@import url(../blocks/description/__quote/_author/description__quote_author.css);
+@import url(../blocks/description/__quote/_author/description__quote-author.css);
 @import url(../blocks/description/__text/description__text.css);
 
 /*Estilos de bloque photo-grid*/
@@ -35,6 +35,7 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__subtitle/place__subtitle.css);
+@import url(../blocks/place/__title/_width/place__title_width.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__artist/place__artist.css);
 @import url(../blocks/place/__image/place__image.css);
