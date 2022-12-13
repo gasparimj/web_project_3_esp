@@ -34,13 +34,13 @@
 /*Estilos de bloque place*/
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__subtitle/place__subtitle.css);
 @import url(../blocks/place/__title/_width/place__title_width.css);
+@import url(../blocks/place/__subtitle/place__subtitle.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__artist/place__artist.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__paragraph-style.css/place__paragraph-style.css);
+@import url(../blocks/place/__paragraph-style/place__paragraph-style.css);
 @import url(../blocks/place/__frame/place__frame.css);
 @import url(../blocks/place/__frame-text/place__frame-text.css);
 
