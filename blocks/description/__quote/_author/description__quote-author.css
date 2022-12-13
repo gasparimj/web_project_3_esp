@@ -1,7 +1,16 @@
 .description__quote-author {
-  border: 1px solid rgb(118, 214, 96);
   text-align: right;
-  position: absolute;
-  right: 0;
-  margin: 10px 0 0;
+  margin: -26px 0 0;
+}
+
+@media screen and (min-width: 438px) and (max-width: 768px) {
+  .description__quote-author {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .description__quote-author {
+    margin: 0;
+  }
 }

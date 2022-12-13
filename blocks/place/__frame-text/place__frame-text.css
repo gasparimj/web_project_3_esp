@@ -5,3 +5,10 @@
   color: #ffffff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 438px) {
+  .place__frame-text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

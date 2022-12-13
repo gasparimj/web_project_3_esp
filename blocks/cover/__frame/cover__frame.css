@@ -1,9 +1,7 @@
 .cover__frame {
-  position: absolute;
+  z-index: 1;
   width: 198px;
   height: 48px;
-  z-index: 1;
-  top: 449px;
   border-radius: 4px;
   background-color: #0278fe;
   display: flex;
@@ -13,5 +11,10 @@
 
 .cover__frame:hover {
   background-color: #0063d2;
+  cursor: pointer;
   transition: background-color 0.4s linear;
+}
+
+.cover__frame:hover + .cover__image {
+  opacity: 0.2;
 }

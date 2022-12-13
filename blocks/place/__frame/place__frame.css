@@ -1,6 +1,5 @@
 .place__frame {
   grid-area: frame;
-  border: 1px solid rgb(245, 74, 208);
   background-color: #0278fe;
   width: 355px;
   height: 48px;
@@ -12,5 +11,20 @@
 
 .place__frame:hover {
   background-color: #0063d2;
+  cursor: pointer;
   transition: background-color 0.4s linear;
+}
+
+@media screen and (min-width: 438px) and (max-width: 768px) {
+  .place__frame {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .place__frame {
+    align-self: center;
+    max-width: 288px;
+    width: 90vw;
+  }
 }

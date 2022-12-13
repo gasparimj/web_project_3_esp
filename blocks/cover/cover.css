@@ -1,8 +1,26 @@
 .cover {
-  width: 1184px;
-  border: 1px solid blue;
-  display: flex;
+  width: 93vw;
+  max-width: 1184px;
+  height: 740px;
   position: relative;
-  flex-direction: column;
-  align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 984px) {
+  .cover {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 438px) and (max-width: 768px) {
+  .cover {
+    width: 100vw;
+    height: 80vw;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .cover {
+    width: 100vw;
+    height: 80vw;
+  }
 }

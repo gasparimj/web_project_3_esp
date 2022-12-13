@@ -1,9 +1,8 @@
 .place__link {
   font-size: 12px;
   font-weight: 400;
-  line-height: 14.52px;
+  line-height: 14.5px;
   color: #aaa;
-  margin-bottom: 8px; /*NO LO ESTA TOMADNO AHROA COMO LINK*/
   text-decoration: none;
   text-transform: uppercase;
 }

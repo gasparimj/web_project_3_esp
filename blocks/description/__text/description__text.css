@@ -1,9 +1,20 @@
 .description__text {
-  border: 1px solid beige;
-  width: 71%; /*o 720px??*/
+  max-width: 720px;
   margin: 32px 0 0;
   color: #fff;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26.08px;
+  line-height: 26px;
+}
+
+@media screen and (min-width: 438px) and (max-width: 768px) {
+  .description__text {
+    margin: 4% 0 0;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .description__text {
+    margin: 0;
+  }
 }

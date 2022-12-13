@@ -1,5 +1,4 @@
 .place {
-  border: 1px solid yellow;
   display: grid;
   grid-gap: 48px 40px;
   grid-template-areas:
@@ -7,4 +6,31 @@
     "title subtitle"
     "image paragraph"
     "frame paragraph";
+}
+
+@media screen and (min-width: 768px) and (max-width: 984px) {
+  .place {
+    grid-template-areas:
+      "title subtitle"
+      "image paragraph"
+      "frame paragraph"
+      ". paragraph";
+    grid-gap: 24px 28px;
+  }
+}
+
+@media screen and (min-width: 438px) and (max-width: 768px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
 }
