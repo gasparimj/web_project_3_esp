@@ -15,7 +15,7 @@
   transition: background-color 0.4s linear;
 }
 
-@media screen and (min-width: 438px) and (max-width: 768px) {
+@media screen and (min-width: 438px) and (max-width: 690px) {
   .place__frame {
     align-self: center;
   }

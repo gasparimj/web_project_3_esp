@@ -5,13 +5,13 @@
   gap: 25px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 984px) {
+@media screen and (min-width: 690px) and (max-width: 984px) {
   .place__paragraph {
     gap: 20px;
   }
 }
 
-@media screen and (min-width: 438px) and (max-width: 768px) {
+@media screen and (min-width: 438px) and (max-width: 690px) {
   .place__paragraph {
     gap: 15px;
     margin: 0 16px 10px;

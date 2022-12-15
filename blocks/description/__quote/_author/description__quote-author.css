@@ -3,7 +3,7 @@
   margin: -26px 0 0;
 }
 
-@media screen and (min-width: 438px) and (max-width: 768px) {
+@media screen and (min-width: 438px) and (max-width: 690px) {
   .description__quote-author {
     margin: 0;
   }

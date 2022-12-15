@@ -8,13 +8,13 @@
   margin: 0 0 5% 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 984px) {
+@media screen and (min-width: 690px) and (max-width: 984px) {
   .header__subtitle {
     margin: 0 0 9% 0;
   }
 }
 
-@media screen and (min-width: 438px) and (max-width: 768px) {
+@media screen and (min-width: 438px) and (max-width: 690px) {
   .header__subtitle {
     font-size: 27px;
     width: 95vw;

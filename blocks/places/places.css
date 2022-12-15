@@ -6,14 +6,14 @@
   gap: 80px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 984px) {
+@media screen and (min-width: 690px) and (max-width: 984px) {
   .places {
     width: 94vw;
     gap: 40px;
   }
 }
 
-@media screen and (min-width: 438px) and (max-width: 768px) {
+@media screen and (min-width: 438px) and (max-width: 690px) {
   .places {
     gap: 30px;
   }
